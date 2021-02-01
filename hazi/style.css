@@ -1,0 +1,93 @@
+table{
+    border: 2px solid rgb(180, 180, 255);
+    border-radius: 2mm;
+    width: 50%;
+    border-spacing: 0.1cm;
+    color: darkblue;
+}
+
+th{
+color:red;
+border: 1px solid white;
+border-radius: 2mm;
+background-color:rgb(200, 200, 255);
+box-shadow: 2px 2px darkblue;
+margin:auto;
+text-align: center;
+height: 1.5cm;
+width: 1.5cm;
+}
+
+td{
+    border: 1px solid white;
+    border-radius: 1mm;
+    background-color:rgb(200, 200, 255);
+    box-shadow: 2px 2px darkblue;
+    margin:auto;
+    text-align: center;
+    height: 1.5cm;
+    width: 1.5cm;
+}
+
+table img{
+    width: 100%;
+    height: 1.5cm;
+}
+
+td:first-child{
+background-color: rgb(180, 180, 255);
+text-align: left;
+}
+
+td:last-child{
+    background-color:rgb(200, 200, 200);
+    height: 1.5cm;
+    width: 1.5cm;
+}
+
+thead td{
+    background-color: rgb(150, 150, 255);
+    font-weight:bold;
+}
+
+tfoot{
+    background-color: white;
+}
+
+#jobbfelso{
+    background-color: rgb(180, 180, 180);
+}
+
+div{
+    width: 32%;
+    text-align: justify
+}
+
+#kep{
+    position: absolute;
+    right: 50%;
+    top: 8%;
+    width: 16%;
+    height: 35%;
+    border-radius: 0.2cm;
+}
+
+h1 , h2{
+    color: darkblue;
+}
+
+td:hover , th:hover , #jobbfelso:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+::selection{
+    background-color: chartreuse;
+    color:white
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
